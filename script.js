@@ -8,15 +8,22 @@ window.onscroll = function() {
         navbar.style.backgroundColor = "transparent";
 }
 }
-function funt() {
-    alert("Hello! my number-7010510975");
-  }
+const options={bottom: '20px',
+right: '15px',
+left: 'unset', 
+time: '0.5s',
+mixColor: '#fff',
+backgroundColor: '#fff',
+buttonColorDark: '#100f2c',
+buttonColorLight: '#fff',
+saveInCookies: true,
+label: '🌞', 
 
-
-
-  const showPopup = document.querySelector('.show-popup');
-const popupContainer = document.querySelector('.popup-container');
-const closeBtn = document.querySelector('.close-btn');
-showPopup.onclick = () => {
-    popupContainer.classList.add('active');
+autoMatchOsTheme: true
 }
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+
+
+
