@@ -12,7 +12,6 @@
   </head>
 
 <body>
-        <script src="script.js"></script>
         <nav class="navbar navbar-expand-lg fixed-top navbarScroll" id="navbar">
             <div class="container">
                 <a class="navbar-brand" style="color:aliceblue ;">Thulasi Rahul J</a>
@@ -20,7 +19,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto" id="primary">
                         <li class="nav-item active">
                             <a class="nav-link" href="#home" style="color:aliceblue">Home</a>
                         </li>
@@ -178,7 +177,7 @@
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="" alt="" style="width:100%">
+                        <img class="card-img-top" src="portfolio2.jpg" alt="" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
@@ -191,7 +190,7 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="" alt="" style="width:100%">
+                        <img class="card-img-top" src="portfolio1.jpg" alt="" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
@@ -204,7 +203,7 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="" alt="" style="width:100%">
+                        <img class="card-img-top" src="portfolio3.jpg" alt="" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
@@ -219,7 +218,7 @@
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="" alt="" style="width:100%">
+                        <img class="card-img-top" src="portfolio4.jpg" alt="" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
@@ -232,7 +231,7 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="" alt="" style="width:100%">
+                        <img class="card-img-top" src="portfolio5.jpg" alt="" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
@@ -245,7 +244,7 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="" alt="" style="width:100%">
+                        <img class="card-img-top" src="portfolio6.jpg" alt="" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title"></h4>
                             <p class="card-text"></p>
@@ -257,6 +256,7 @@
                 </div>
             </div>
     </section>
+    
     <section id="contact">
         <div class="container mt-3 contactContent">
             <h1 class="text-center">Contact Me</h1>
@@ -267,15 +267,16 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <form>
+                    <form action="mailto:jthulasirahul@gmail.com" method="post" enctype="text/plain">
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
                         <input type="text" class="form-control mt-3" placeholder="Subject">
                         <div class="mb-3 mt-3">
                             <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
                         </div>
+                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
                     </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
                     
                 </div>
 
@@ -293,6 +294,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="script.js"></script>
+   
 </body>
 
 
